@@ -1,4 +1,4 @@
-package gfm_server
+package gfm_serve
 
 import "golang.org/x/net/html"
 

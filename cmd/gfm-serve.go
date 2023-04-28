@@ -6,7 +6,7 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/fa7ad/gfm-serve/internal/gfm_server"
+	"github.com/fa7ad/gfm-serve/internal/gfm_serve"
 )
 
 func main() {
@@ -33,7 +33,7 @@ func main() {
 				Usage:   "Hostname/Address to listen on",
 			},
 		},
-		Action:                 gfm_server.ServeGfm,
+		Action:                 gfm_serve.ServeGfm,
 		UseShortOptionHandling: true,
 	}
 

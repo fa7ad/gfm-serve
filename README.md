@@ -5,7 +5,7 @@ A simple [serve] like utility to list files and render GitHub Flavored Markdown.
 ## Installation
 
 ```sh
-$ go install github.com/fa7ad/gfm-serve
+$ go install github.com/fa7ad/gfm-serve/cmd/gfm-serve
 ```
 
 Or, clone the repo and build the binary.

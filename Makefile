@@ -1,5 +1,5 @@
 #!/usr/bin/make -f
-SRC := $(wildcard cmd/*.go */*/*.go )
+SRC := $(wildcard cmd/gfm-serve/*.go */*/*.go )
 BIN := bin/gfm-serve
 TARGETS := darwin-arm64 darwin-amd64 linux-amd64
 

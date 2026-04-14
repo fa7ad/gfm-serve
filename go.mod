@@ -1,13 +1,13 @@
 module github.com/fa7ad/gfm-serve
 
-go 1.20
+go 1.23.0
 
 require (
 	github.com/antchfx/htmlquery v1.3.0
 	github.com/gofiber/fiber/v2 v2.52.12
 	github.com/shurcooL/github_flavored_markdown v0.0.0-20210228213109-c3a9aa474629
 	github.com/urfave/cli/v2 v2.25.1
-	golang.org/x/net v0.17.0
+	golang.org/x/net v0.38.0
 )
 
 require (
@@ -41,6 +41,6 @@ require (
 	github.com/valyala/fasthttp v1.51.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
-	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 )
